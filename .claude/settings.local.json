@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(open:*)",
+      "Bash(code:*)",
+      "WebFetch(domain:www.ntt.com)",
+      "WebFetch(domain:www.ntt.com)"
+    ],
+    "deny": []
+  }
+}
