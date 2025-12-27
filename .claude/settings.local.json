@@ -9,7 +9,8 @@
       "WebFetch(domain:www.ntt.com)",
       "WebFetch(domain:www.ntt.com)",
       "WebFetch(domain:nodeai.io)",
-      "WebFetch(domain:chakoshi.ntt.com)"
+      "WebFetch(domain:chakoshi.ntt.com)",
+      "Bash(git -C /Users/kaisugi/Documents/kaisugi.me show -s --format='%ai' HEAD)"
     ],
     "deny": []
   }

@@ -58,7 +58,7 @@
 <script>document.addEventListener('DOMContentLoaded',function(){setTimeout(function(){document.querySelector('.title-cursor').classList.add('start-blinking')},2300);setTimeout(function(){if(document.body.scrollHeight>window.innerHeight){const h=document.createElement('div');h.style.cssText='position:fixed;bottom:20px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,0.3);font-size:12px;animation:fadeIn 1s ease-out;font-family:monospace;';h.textContent='↓';document.body.appendChild(h);let s=false;window.addEventListener('scroll',function(){if(!s){s=true;h.style.animation='fadeOut 0.5s ease-out forwards';setTimeout(()=>h.remove(),500)}})}},3000)})</script>
 </head>
 <body>
-  <div class="main-container">
+  <main class="main-container">
     <div class="title-container">
       <h1 class="title-cursor" style="font-size: 1.8rem; font-weight: 400; margin: 0; color: var(--nc-tx-1); opacity: 0.9; letter-spacing: 0.05em; font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Courier New', monospace;">kaisugi.me</h1>
     </div>
@@ -83,6 +83,6 @@
     <div class="copyright-container">
       Copyright (c) 2025, Kaito Sugimoto
     </div>
-  </div>
+  </main>
 </body>
 </html>
