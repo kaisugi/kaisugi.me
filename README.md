@@ -29,7 +29,6 @@ The design of this site has been adopted by others:
 ## Tech Stack
 
 - HTML5
-- [Inter](https://fonts.google.com/specimen/Inter) (Google Fonts)
 - Hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ## License
